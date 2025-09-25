@@ -31,6 +31,10 @@ public class RestAssuredIntro {
 
     }
 
+    public void forGit() {
+        System.out.println("For Git push");
+    }
+
     @Test(priority = 2)
     void createUser() {
         HashMap<String, String> data = new HashMap<>();
