@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Code": {
+              "type": "string"
+            },
+            "Course": {
+              "type": "string"
+            },
+            "Games": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "Name",
+            "Code",
+            "Course",
+            "Games"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Code": {
+              "type": "string"
+            },
+            "Course": {
+              "type": "string"
+            },
+            "Games": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "Name",
+            "Code",
+            "Course",
+            "Games"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Code": {
+              "type": "string"
+            },
+            "Course": {
+              "type": "string"
+            },
+            "Games": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "Name",
+            "Code",
+            "Course",
+            "Games"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Code": {
+              "type": "string"
+            },
+            "Course": {
+              "type": "string"
+            },
+            "Games": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "Name",
+            "Code",
+            "Course",
+            "Games"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

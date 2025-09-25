@@ -1,0 +1,23 @@
+<suite  name = "suite">
+    <test name="test1">
+        <classes>
+            <class name="apiChaining.CreateUser"/>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="apiChaining.GetUser"/>
+        </classes>
+    </test>
+    <test name="test3">
+        <classes>
+            <class name="apiChaining.UpdateUser"/>
+        </classes>
+    </test>
+    <test name="test4">
+        <classes>
+            <class name="apiChaining.DeleteUser"/>
+        </classes>
+    </test>
+</suite>
+
